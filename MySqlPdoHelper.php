@@ -1,12 +1,10 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+require_once 'autoload.php';
 
 namespace mmxca\MySqlPdoHelper;
+
+use \mmxca\LoggingHelper;
 
 /**
  * Description of MySqlPdoHelper
@@ -14,5 +12,11 @@ namespace mmxca\MySqlPdoHelper;
  * @author David Hoffman
  */
 class MySqlPdoHelper {
-    //put your code here
+    
+    private $logger = null;
+    
+    function __construct() {
+        $this->logger = new LoggingHelper();
+        $this->logger->write("MySqlPdoHelper constructed");
+    }
 }
