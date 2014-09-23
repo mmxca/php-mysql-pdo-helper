@@ -19,4 +19,6 @@ class MySqlPdoHelper {
         $this->logger = new LoggingHelper();
         $this->logger->write("MySqlPdoHelper constructed");
     }
+    
+    
 }
