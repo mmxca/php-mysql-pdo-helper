@@ -1,6 +1,6 @@
 {
     "name": "mmxca/php-mysql-pdo-helper",
-    "description": "",
+    "description": "MySQL Helper for PHP 5.3 using PDO",
     "keywords": ["mysql", "pdo", "database"],
     "homepage": "http://mmxca.com/projects",
     "authors": [
